@@ -1,0 +1,10 @@
+server:
+  port: 8888
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: t_

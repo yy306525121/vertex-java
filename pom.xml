@@ -11,6 +11,9 @@
     <description>vertex的Java实现</description>
     <modules>
         <module>vertex-web</module>
+        <module>vertex-common</module>
+        <module>vertex-system</module>
+        <module>vertex-system</module>
     </modules>
 
     <properties>
@@ -21,6 +24,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <spring-boot.version>3.1.0</spring-boot.version>
+        <mysql-connector-java.veresion>8.0.32</mysql-connector-java.veresion>
+        <mybatis-plus.version>3.5.3.1</mybatis-plus.version>
     </properties>
     <dependencies>
 

@@ -7,21 +7,21 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>vertex-web</artifactId>
+    <artifactId>vertex-system</artifactId>
     <packaging>jar</packaging>
 
-    <name>vertex-web</name>
+    <name>vertex-system</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>cn.codeyang</groupId>
-            <artifactId>vertex-system</artifactId>
+            <artifactId>vertex-common</artifactId>
             <version>1.0.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
 </project>

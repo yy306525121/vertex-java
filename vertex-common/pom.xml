@@ -7,21 +7,28 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>vertex-web</artifactId>
+    <artifactId>vertex-common</artifactId>
     <packaging>jar</packaging>
 
-    <name>vertex-web</name>
+    <name>vertex-common</name>
+
 
     <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
 
         <dependency>
-            <groupId>cn.codeyang</groupId>
-            <artifactId>vertex-system</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector-java.veresion}</version>
         </dependency>
+
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>${mybatis-plus.version}</version>
         </dependency>
     </dependencies>
 </project>
